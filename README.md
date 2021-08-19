@@ -28,20 +28,20 @@ Things i have learnt by completing this project:
 
 ## Steps to execute the code
 
-bash
+```bash
 $ git clone https://github.com/MananKGarg/Stock_Price_Prediction
+```
 
-
-bash
+```bash
 $ cd Stock_Price_Prediction
+```
 
-
-bash
+```bash
 $ pip3 install -r requirements.txt
+```
 
-
-bash
+```bash
 $ jupyter notebook
-
+```
 
 Now open the Stock_Price_Predictor.ipynb
