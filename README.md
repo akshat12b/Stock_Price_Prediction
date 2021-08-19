@@ -12,9 +12,9 @@ I have used Keras to build a LSTM to predict stock prices using historical closi
 
 
 ## Problem Highlights
-*The challenge of this project is to accurately predict the future closing value of a given stock across a given period of time in the future.  For this project I have used a Long Short Term Memory networks – usually just called “LSTMs” to predict the closing price of the S&P 500 using a dataset of past prices*
+The challenge of this project is to accurately predict the future closing value of a given stock across a given period of time in the future.  For this project I have used a Long Short Term Memory networks – usually just called “LSTMs” to predict the closing price of the S&P 500 using a dataset of past prices 
 
-* **Achievements:**
+* *Achievements:*
   * Built a model to accurately predict the future closing price of a given stock, using Long Short Term Memory Neural net algorithm. 
   * Achieved Mean Squared Error rating of just 0.00093063.
 
@@ -26,12 +26,22 @@ Things i have learnt by completing this project:
 * How to optimise Long Short Term Memory Neural Network algortithm, to ensure increase in postive results.
 
 
-## Software and Libraries
-This project uses the following software and Python libraries:
+## Steps to execute the code
 
-* [Python 3.7](https://www.python.org/download/releases/3.7/)
-* [NumPy](http://www.numpy.org/)
-* [pandas](http://pandas.pydata.org/)
-* [Keras](https://keras.io/)
-* [Tensor-flow](https://www.tensorflow.org)
-* [Jupyter Notebook](http://ipython.org/notebook.html)
+bash
+$ git clone https://github.com/MananKGarg/Stock_Price_Prediction
+
+
+bash
+$ cd Stock_Price_Prediction
+
+
+bash
+$ pip3 install -r requirements.txt
+
+
+bash
+$ jupyter notebook
+
+
+Now open the Stock_Price_Predictor.ipynb
